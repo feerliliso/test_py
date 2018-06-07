@@ -5,4 +5,11 @@ zodiac_days = ((1, 20), (2, 10), (4, 21), (5, 21), (6, 22), (7, 23), (9, 23), (1
 int_month = int(input('输入月份'))
 int_day = int(input('输入日期'))
 #print(type(str_day))
+for zd_num in range(len(zodiac_days)):
+    if zodiac_days[zd_num] >= (int_month, int_day):
+        print(zodiac_name[zd_num])
+        break
+    elif int_month == 12 and int_day > 23:
+        print(zodiac_name[zd_num])
+        break
 
