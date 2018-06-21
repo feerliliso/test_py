@@ -1,4 +1,4 @@
-file = open('fi.txt','w')
+file = open('fi.txt', 'w')
 file.write('my first file')
 file.close()
 file = open('fi.txt', 'w')
@@ -11,8 +11,4 @@ file3.write('2000.5.6')
 file3.close()
 file3 = open('fi.txt')
 print(file3.read(7))
-#print(file3.read())
-
-
-
-
+# print(file3.read())

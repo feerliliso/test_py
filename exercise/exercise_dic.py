@@ -7,10 +7,3 @@ for i in "hello":
     dic2 = i
 
 print(dic2)
-
-
-
-
-
-
-

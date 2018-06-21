@@ -1,4 +1,4 @@
-#判断字符串的长度是否大于10
+# 判断字符串的长度是否大于10
 string = "the number is than ten"
 if len(string) > 10:
     print("the string is more than 10 ")
@@ -19,12 +19,3 @@ if 31 <= number <= 40:
     print("这个数在31 到 40 之间")
 if number > 40 or number < 1:
     print("这个数超过了判断范围，请重新输入")
-
-
-
-
-
-
-
-
-
